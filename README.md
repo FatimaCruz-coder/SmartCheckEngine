@@ -43,6 +43,6 @@ npm install
 npm start
 ```
 
-
-
+## 📊 Presentation
+[SMART CHECK ENGINE presentation.pdf](https://github.com/user-attachments/files/26123799/SMART.CHECK.ENGINE.presentation.pdf)
 
