@@ -44,5 +44,7 @@ npm start
 ```
 
 ## 📊 Presentation
-[SMART CHECK ENGINE presentation.pdf](https://github.com/user-attachments/files/26123799/SMART.CHECK.ENGINE.presentation.pdf)
+
+<img width="2000" height="1545" alt="2" src="https://github.com/user-attachments/assets/78c224d7-a57e-441f-941e-d4aae0b2acc5" />
+<img width="2000" height="1545" alt="1" src="https://github.com/user-attachments/assets/4f1b0181-ba15-4bee-b44c-67556b7bce11" />
 
