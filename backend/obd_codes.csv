@@ -1,0 +1,225 @@
+code,title,description,parts,cost_min,cost_max,severity
+P0420,Catalyst system efficiency below threshold,Your car’s exhaust system is not cleaning emissions as well as it should.,"O2 sensor; catalytic converter",80,200,check_soon
+P0301,Cylinder 1 misfire detected,One of your engine cylinders is not firing properly.,"Spark plug; ignition coil",60,250,check_soon
+P0300,Random/multiple cylinder misfire detected,The engine computer has detected misfires in multiple cylinders.,"Spark plugs; ignition coils; fuel injectors",100,400,check_soon
+P0171,System too lean (Bank 1),The engine is running with too much air and not enough fuel on bank 1.,"Mass air flow sensor; vacuum leaks; fuel pump",120,500,check_soon
+P0135,O2 sensor heater circuit malfunction (Bank 1 Sensor 1),The heater in the upstream oxygen sensor is not working properly,"Upstream O2 sensor; wiring; fuse",90,250,check_soon
+P0442,Evaporative emission system leak detected (small leak),The EVAP system has detected a small leak in the fuel vapor system.,"Gas cap; EVAP hoses; purge valve",50,200,check_later
+P0101,Mass or Volume Air Flow Circuit Range/Performance Problem,The mass air flow sensor signal is out of expected range.,Mass air flow sensor; intake hose; wiring,120,400,check_soon
+P0113,Intake Air Temperature Sensor 1 Circuit High Input,The intake air temperature sensor is reading an abnormally high value.,Intake air temp sensor; wiring; connector,80,250,check_later
+P0128,Coolant Thermostat Below Regulating Temperature,The engine is not reaching proper operating temperature.,Thermostat; coolant temperature sensor,120,350,check_later
+P0130,O2 Sensor Circuit Malfunction (Bank 1 Sensor 1),The upstream oxygen sensor is not sending a proper signal.,Upstream O2 sensor; wiring; exhaust leak,90,300,check_soon
+P0172,System Too Rich (Bank 1),The engine is running with too much fuel on bank 1.,Fuel injectors; fuel pressure regulator; MAF sensor,150,600,check_soon
+P0174,System Too Lean (Bank 2),The engine is running too lean on bank 2.,Vacuum leaks; MAF sensor; fuel pump,150,600,check_soon
+P0302,Cylinder 2 Misfire Detected,Cylinder 2 is not firing correctly.,Spark plug; ignition coil; fuel injector,80,350,check_soon
+P0303,Cylinder 3 Misfire Detected,Cylinder 3 is not firing correctly.,Spark plug; ignition coil; fuel injector,80,350,check_soon
+P0304,Cylinder 4 Misfire Detected,Cylinder 4 is not firing correctly.,Spark plug; ignition coil; fuel injector,80,350,check_soon
+P0401,Exhaust Gas Recirculation Flow Insufficient Detected,The EGR system is not flowing enough exhaust gas.,EGR valve; EGR passages; vacuum hoses,150,500,check_later
+P0440,Evaporative Emission System Malfunction,The EVAP system has a general fault.,Gas cap; EVAP hoses; purge valve,50,250,check_later
+P0446,Evaporative Emission System Vent Control Circuit,The EVAP vent control circuit is not working properly.,EVAP vent valve; wiring; charcoal canister,80,300,check_later
+P0455,Evaporative Emission System Leak Detected (Large Leak),The EVAP system has detected a large vapor leak.,Gas cap; EVAP hoses; filler neck,50,250,check_later
+P0500,Vehicle Speed Sensor A Malfunction,The vehicle speed signal is missing or incorrect.,Vehicle speed sensor; wiring; instrument cluster,120,400,check_soon
+P0700,Transmission Control System Malfunction,The transmission control system has reported a fault.,Transmission control module; wiring; transmission sensors,200,800,check_soon
+P0715,Input/Turbine Speed Sensor Circuit Malfunction,The transmission input speed sensor signal is faulty.,Input speed sensor; wiring; transmission control module,150,600,check_soon
+P0720,Output Speed Sensor Circuit Malfunction,The transmission output speed sensor signal is faulty.,Output speed sensor; wiring; transmission control module,150,600,check_soon
+P0740,Torque Converter Clutch Circuit Malfunction,The torque converter clutch is not engaging or disengaging correctly.,Torque converter clutch solenoid; transmission fluid; wiring,250,900,check_soon
+P2101,Throttle Actuator Control Motor Circuit Range/Performance,The throttle body motor is not responding as expected.,Electronic throttle body; wiring; PCM,250,900,check_soon
+P2187,System Too Lean at Idle (Bank 1),The engine is running too lean at idle on bank 1.,Vacuum leaks; PCV valve; fuel system,120,500,check_soon
+B0020,Front Passenger Airbag Deployment Circuit High,The airbag control module detects a high resistance or open circuit in the front passenger airbag circuit.,Passenger airbag module; clock spring; wiring,250,900,check_soon
+B1200,Climate Control Pushbutton Circuit Failure,The climate control panel is not reading a button input correctly.,HVAC control panel; button/board; wiring,150,600,check_later
+B1422,Headlamp Switch Circuit Open,The control module cannot see a proper signal from the headlamp switch.,Headlight switch; wiring; connector,80,300,check_later
+B2725,Remote Keyless Entry Transmitter Battery Low,The key fob battery voltage is too low.,Key fob battery; key fob,10,80,check_later
+B3925,Rear Wiper Run Relay Circuit Short to Battery,The rear wiper relay circuit is shorted to power.,Rear wiper relay; wiring; wiper motor,120,400,check_later
+C0035,Left Front Wheel Speed Sensor Circuit,The ABS module is not receiving a proper signal from the left front wheel speed sensor.,Left front wheel speed sensor; wiring; tone ring,150,500,check_soon
+C0242,PCM/ECM/TCM Communication Circuit Fault,The ABS or chassis module is losing communication with the powertrain module.,Wiring harness; control modules; connectors,200,800,check_soon
+C0561,ABS/ESC System Disabled,The stability or ABS system has been disabled due to a stored fault.,ABS module; wheel speed sensors; steering angle sensor,250,900,check_soon
+C1210,ABS Pump Motor Control Circuit,The ABS pump motor control circuit is malfunctioning.,ABS pump motor; relay; wiring,250,900,check_soon
+C1214,Steering Wheel Position Sensor Circuit,The steering angle sensor signal is incorrect or intermittent.,Steering angle sensor; clockspring; wiring,200,700,check_soon
+U0001,High Speed CAN Communication Bus,The vehicle detects a fault on the high speed communication bus.,CAN wiring; connectors; control modules,250,1000,check_soon
+U0100,Lost Communication with ECM/PCM,Other modules have lost communication with the engine control module.,ECM/PCM; CAN wiring; connectors,250,1000,check_soon
+U0121,Lost Communication with ABS Control Module,The system has lost communication with the ABS module.,ABS control module; CAN wiring; connectors,250,900,check_soon
+U0140,Lost Communication with Body Control Module,The system has lost communication with the body control module.,BCM; CAN wiring; connectors,250,900,check_soon
+U0401,Invalid Data Received from ECM/PCM,Another module is receiving invalid data from the engine control module.,ECM/PCM; software update; CAN wiring,250,900,check_soon
+P0011,Intake Camshaft Position Timing Over-Advanced (Bank 1),The intake camshaft is more advanced than the engine computer wants it to be.,"Camshaft phaser; oil control valve; engine oil",150,600,check_soon
+P0012,Intake Camshaft Position Timing Over-Retarded (Bank 1),The intake camshaft is more retarded than the engine computer wants it to be.,"Oil control valve; camshaft phaser; engine oil",150,600,check_soon
+P0013,Exhaust Camshaft Position Actuator Circuit Open (Bank 1),The exhaust camshaft actuator circuit has an open circuit.,"Oil control valve; wiring; connector",120,450,check_soon
+P0014,Exhaust Camshaft Position Timing Over-Advanced (Bank 1),The exhaust camshaft is more advanced than expected.,"Camshaft phaser; oil control valve; engine oil",150,600,check_soon
+P0016,Crankshaft Position Camshaft Position Correlation Bank 1 Sensor A,The crankshaft and camshaft positions do not match.,"Timing chain; camshaft sensor; crankshaft sensor",300,1200,check_soon
+P0017,Crankshaft Position Camshaft Position Correlation Bank 1 Sensor B,The crankshaft and exhaust camshaft positions do not match.,"Timing chain; camshaft sensor; crankshaft sensor",300,1200,check_soon
+P0021,Intake Camshaft Position Timing Over-Advanced (Bank 2),The intake camshaft on bank 2 is more advanced than expected.,"Oil control valve; camshaft phaser; engine oil",150,600,check_soon
+P0030,O2 Sensor Heater Control Circuit (Bank 1 Sensor 1),The heater circuit for the upstream oxygen sensor on bank 1 has a fault.,"O2 sensor; wiring; fuse",90,280,check_soon
+P0031,O2 Sensor Heater Circuit Low (Bank 1 Sensor 1),The heater circuit voltage for the upstream O2 sensor is too low.,"O2 sensor; wiring; relay",90,280,check_soon
+P0032,O2 Sensor Heater Circuit High (Bank 1 Sensor 1),The heater circuit voltage for the upstream O2 sensor is too high.,"O2 sensor; wiring; PCM",90,280,check_soon
+P0037,O2 Sensor Heater Circuit Low (Bank 1 Sensor 2),The heater circuit for the downstream O2 sensor is drawing low voltage.,"Downstream O2 sensor; wiring; fuse",90,280,check_soon
+P0038,O2 Sensor Heater Circuit High (Bank 1 Sensor 2),The heater circuit for the downstream O2 sensor has high voltage.,"Downstream O2 sensor; wiring; PCM",90,280,check_soon
+P0051,O2 Sensor Heater Circuit Low (Bank 2 Sensor 1),The upstream O2 sensor heater on bank 2 has low circuit voltage.,"O2 sensor; wiring; fuse",90,280,check_soon
+P0053,O2 Sensor Heater Resistance (Bank 1 Sensor 1),The resistance value of the upstream O2 sensor heater is out of range.,"O2 sensor; wiring",90,280,check_soon
+P0068,MAP/MAF Throttle Position Correlation,The throttle position and MAF/MAP sensor readings do not agree.,"Throttle body; MAF sensor; MAP sensor; vacuum leaks",150,600,check_soon
+P0070,Ambient Air Temperature Sensor Circuit,The ambient air temperature sensor signal is missing or out of range.,"Ambient temp sensor; wiring; connector",80,250,check_later
+P0089,Fuel Pressure Regulator Performance,The fuel pressure is not within expected range.,"Fuel pressure regulator; fuel pump; fuel filter",200,700,check_soon
+P0093,Fuel System Leak Detected Large Leak,A large fuel system leak has been detected.,"Fuel lines; fuel injectors; fuel rail",200,800,check_soon
+P0097,Intake Air Temperature Sensor 2 Circuit Low,The intake air temperature sensor 2 voltage is too low.,"IAT sensor; wiring; connector",80,250,check_later
+P0102,Mass Air Flow Circuit Low Input,The MAF sensor signal is lower than expected.,"MAF sensor; wiring; air intake hose",120,400,check_soon
+P0103,Mass Air Flow Circuit High Input,The MAF sensor signal is higher than expected.,"MAF sensor; wiring; air filter",120,400,check_soon
+P0107,Manifold Absolute Pressure Circuit Low Input,The MAP sensor voltage is too low.,"MAP sensor; vacuum hose; wiring",100,350,check_soon
+P0108,Manifold Absolute Pressure Circuit High Input,The MAP sensor voltage is too high.,"MAP sensor; vacuum hose; wiring",100,350,check_soon
+P0111,Intake Air Temperature Sensor Circuit Range/Performance,The IAT sensor signal is inconsistent with expected values.,"IAT sensor; wiring; connector",80,250,check_later
+P0112,Intake Air Temperature Sensor Circuit Low Input,The IAT sensor voltage is lower than expected.,"IAT sensor; wiring; connector",80,250,check_later
+P0116,Engine Coolant Temperature Circuit Range/Performance,The coolant temp sensor reading is inconsistent.,"Coolant temp sensor; wiring; thermostat",100,350,check_soon
+P0117,Engine Coolant Temperature Circuit Low Input,The coolant temperature sensor voltage is too low.,"Coolant temp sensor; wiring; connector",100,350,check_soon
+P0118,Engine Coolant Temperature Circuit High Input,The coolant temperature sensor voltage is too high.,"Coolant temp sensor; wiring; connector",100,350,check_soon
+P0120,Throttle Pedal Position Sensor Switch A Circuit,The throttle position sensor A signal is out of range.,"Throttle position sensor; wiring; throttle body",150,500,check_soon
+P0121,Throttle Pedal Position Sensor Switch A Range/Performance,The throttle position sensor A reading is inconsistent.,"Throttle position sensor; wiring; throttle body",150,500,check_soon
+P0122,Throttle Pedal Position Sensor Switch A Circuit Low,The throttle position sensor A voltage is too low.,"Throttle position sensor; wiring; connector",150,500,check_soon
+P0123,Throttle Pedal Position Sensor Switch A Circuit High,The throttle position sensor A voltage is too high.,"Throttle position sensor; wiring; connector",150,500,check_soon
+P0125,Insufficient Coolant Temperature for Closed Loop Fuel Control,The engine is taking too long to reach operating temperature.,"Thermostat; coolant temp sensor; cooling system",120,400,check_later
+P0131,O2 Sensor Circuit Low Voltage (Bank 1 Sensor 1),The upstream O2 sensor voltage is too low.,"O2 sensor; exhaust leaks; wiring",90,300,check_soon
+P0132,O2 Sensor Circuit High Voltage (Bank 1 Sensor 1),The upstream O2 sensor voltage is too high.,"O2 sensor; fuel system; wiring",90,300,check_soon
+P0133,O2 Sensor Circuit Slow Response (Bank 1 Sensor 1),The upstream O2 sensor is responding too slowly.,"O2 sensor; exhaust leaks; wiring",90,300,check_soon
+P0134,O2 Sensor Circuit No Activity Detected (Bank 1 Sensor 1),The upstream O2 sensor is not producing a signal.,"O2 sensor; wiring; exhaust leak",90,300,check_soon
+P0136,O2 Sensor Circuit Malfunction (Bank 1 Sensor 2),The downstream O2 sensor has a circuit fault.,"Downstream O2 sensor; wiring; catalytic converter",90,300,check_soon
+P0137,O2 Sensor Circuit Low Voltage (Bank 1 Sensor 2),The downstream O2 sensor voltage is too low.,"Downstream O2 sensor; wiring; catalytic converter",90,300,check_soon
+P0138,O2 Sensor Circuit High Voltage (Bank 1 Sensor 2),The downstream O2 sensor voltage is too high.,"Downstream O2 sensor; fuel system; wiring",90,300,check_soon
+P0139,O2 Sensor Circuit Slow Response (Bank 1 Sensor 2),The downstream O2 sensor is responding too slowly.,"Downstream O2 sensor; catalytic converter; wiring",90,300,check_soon
+P0140,O2 Sensor Circuit No Activity (Bank 1 Sensor 2),The downstream O2 sensor is producing no signal.,"Downstream O2 sensor; wiring; fuse",90,300,check_soon
+P0141,O2 Sensor Heater Circuit Malfunction (Bank 1 Sensor 2),The heater in the downstream oxygen sensor is not working.,"Downstream O2 sensor; wiring; fuse",90,280,check_soon
+P0151,O2 Sensor Circuit Low Voltage (Bank 2 Sensor 1),The upstream O2 sensor on bank 2 voltage is too low.,"O2 sensor; exhaust leaks; wiring",90,300,check_soon
+P0152,O2 Sensor Circuit High Voltage (Bank 2 Sensor 1),The upstream O2 sensor on bank 2 voltage is too high.,"O2 sensor; fuel system; wiring",90,300,check_soon
+P0155,O2 Sensor Heater Circuit Malfunction (Bank 2 Sensor 1),The heater in the upstream O2 sensor on bank 2 is not working.,"O2 sensor; wiring; fuse",90,280,check_soon
+P0158,O2 Sensor Circuit High Voltage (Bank 2 Sensor 2),The downstream O2 sensor on bank 2 voltage is too high.,"Downstream O2 sensor; fuel system; wiring",90,300,check_soon
+P0161,O2 Sensor Heater Circuit Malfunction (Bank 2 Sensor 2),The heater in the downstream O2 sensor on bank 2 is not working.,"Downstream O2 sensor; wiring; fuse",90,280,check_soon
+P0175,System Too Rich (Bank 2),The engine is running with too much fuel on bank 2.,"Fuel injectors; fuel pressure regulator; MAF sensor",150,600,check_soon
+P0176,Fuel Composition Sensor Circuit Malfunction,The flex fuel sensor is not sending a correct signal.,"Flex fuel sensor; wiring; connector",100,350,check_later
+P0191,Fuel Rail Pressure Sensor Circuit Range/Performance,The fuel rail pressure sensor reading is out of range.,"Fuel rail pressure sensor; wiring; fuel pump",150,500,check_soon
+P0192,Fuel Rail Pressure Sensor Circuit Low Input,The fuel rail pressure sensor voltage is too low.,"Fuel rail pressure sensor; wiring; connector",150,500,check_soon
+P0193,Fuel Rail Pressure Sensor Circuit High Input,The fuel rail pressure sensor voltage is too high.,"Fuel rail pressure sensor; wiring; connector",150,500,check_soon
+P0196,Engine Oil Temperature Sensor Range/Performance,The engine oil temperature sensor reading is inconsistent.,"Oil temp sensor; wiring; connector",80,250,check_later
+P0200,Injector Circuit Malfunction,There is a general fault in the fuel injector circuit.,"Fuel injectors; wiring; PCM",150,600,check_soon
+P0201,Injector Circuit Malfunction Cylinder 1,The fuel injector circuit for cylinder 1 has a fault.,"Cylinder 1 injector; wiring; connector",100,400,check_soon
+P0202,Injector Circuit Malfunction Cylinder 2,The fuel injector circuit for cylinder 2 has a fault.,"Cylinder 2 injector; wiring; connector",100,400,check_soon
+P0203,Injector Circuit Malfunction Cylinder 3,The fuel injector circuit for cylinder 3 has a fault.,"Cylinder 3 injector; wiring; connector",100,400,check_soon
+P0204,Injector Circuit Malfunction Cylinder 4,The fuel injector circuit for cylinder 4 has a fault.,"Cylinder 4 injector; wiring; connector",100,400,check_soon
+P0217,Engine Over Temperature Condition,The engine has reached an excessively high temperature.,"Coolant; thermostat; radiator; water pump",200,800,check_soon
+P0218,Transmission Over Temperature Condition,The transmission has reached an excessively high temperature.,"Transmission cooler; fluid; solenoids",250,900,check_soon
+P0219,Engine Overspeed Condition,The engine has exceeded its maximum safe RPM.,"Throttle body; fuel system; PCM",200,700,check_soon
+P0222,Throttle Pedal Position Sensor Switch B Circuit Low,The throttle position sensor B voltage is too low.,"Throttle position sensor; wiring; connector",150,500,check_soon
+P0223,Throttle Pedal Position Sensor Switch B Circuit High,The throttle position sensor B voltage is too high.,"Throttle position sensor; wiring; connector",150,500,check_soon
+P0230,Fuel Pump Primary Circuit Malfunction,The fuel pump primary circuit has a fault.,"Fuel pump relay; wiring; fuel pump",150,500,check_soon
+P0231,Fuel Pump Secondary Circuit Low,The fuel pump secondary circuit voltage is too low.,"Fuel pump; wiring; relay",150,600,check_soon
+P0234,Turbo/Super Charger Overboost Condition,The turbocharger or supercharger is producing too much boost.,"Wastegate; boost solenoid; turbocharger; intercooler hoses",300,1200,check_soon
+P0236,Turbocharger Boost Sensor A Circuit Range/Performance,The turbo boost pressure sensor reading is out of range.,"Boost pressure sensor; wiring; vacuum hose",150,500,check_soon
+P0238,Turbocharger Boost Sensor A Circuit High Input,The turbo boost pressure sensor voltage is too high.,"Boost pressure sensor; wiring; connector",150,500,check_soon
+P0243,Turbocharger Wastegate Solenoid A Malfunction,The wastegate solenoid controlling boost is not working properly.,"Wastegate solenoid; wiring; turbocharger",200,700,check_soon
+P0261,Cylinder 1 Injector Circuit Low,The injector circuit for cylinder 1 is drawing too little current.,"Cylinder 1 injector; wiring; connector",100,400,check_soon
+P0262,Cylinder 1 Injector Circuit High,The injector circuit for cylinder 1 is drawing too much current.,"Cylinder 1 injector; wiring; PCM",100,400,check_soon
+P0263,Cylinder 1 Contribution Balance Fault,Cylinder 1 is not contributing equally to engine power.,"Spark plug; injector; compression",80,350,check_soon
+P0305,Cylinder 5 Misfire Detected,Cylinder 5 is not firing correctly.,"Spark plug; ignition coil; fuel injector",80,350,check_soon
+P0306,Cylinder 6 Misfire Detected,Cylinder 6 is not firing correctly.,"Spark plug; ignition coil; fuel injector",80,350,check_soon
+P0307,Cylinder 7 Misfire Detected,Cylinder 7 is not firing correctly.,"Spark plug; ignition coil; fuel injector",80,350,check_soon
+P0308,Cylinder 8 Misfire Detected,Cylinder 8 is not firing correctly.,"Spark plug; ignition coil; fuel injector",80,350,check_soon
+P0315,Crankshaft Position System Variation Not Learned,The crankshaft position sensor variation has not been calibrated.,"Crankshaft position sensor; PCM calibration",100,400,check_soon
+P0320,Ignition/Distributor Engine Speed Input Circuit Malfunction,The engine speed signal from the ignition system is faulty.,"Crankshaft position sensor; distributor; wiring",100,400,check_soon
+P0325,Knock Sensor 1 Circuit Malfunction (Bank 1),The knock sensor on bank 1 is not working properly.,"Knock sensor; wiring; connector",150,500,check_soon
+P0326,Knock Sensor 1 Circuit Range/Performance (Bank 1),The knock sensor on bank 1 reading is inconsistent.,"Knock sensor; wiring; connector",150,500,check_soon
+P0327,Knock Sensor 1 Circuit Low Input (Bank 1),The knock sensor on bank 1 voltage is too low.,"Knock sensor; wiring; connector",150,500,check_soon
+P0328,Knock Sensor 1 Circuit High Input (Bank 1),The knock sensor on bank 1 voltage is too high.,"Knock sensor; wiring; connector",150,500,check_soon
+P0330,Knock Sensor 2 Circuit Malfunction (Bank 2),The knock sensor on bank 2 is not working properly.,"Knock sensor; wiring; connector",150,500,check_soon
+P0335,Crankshaft Position Sensor A Circuit Malfunction,The crankshaft position sensor signal is missing or incorrect.,"Crankshaft position sensor; tone ring; wiring",120,450,check_soon
+P0336,Crankshaft Position Sensor A Circuit Range/Performance,The crankshaft position sensor reading is inconsistent.,"Crankshaft position sensor; tone ring; wiring",120,450,check_soon
+P0340,Camshaft Position Sensor A Circuit Malfunction (Bank 1),The camshaft position sensor on bank 1 is not working properly.,"Camshaft position sensor; wiring; timing",120,450,check_soon
+P0341,Camshaft Position Sensor A Circuit Range/Performance (Bank 1),The camshaft position sensor on bank 1 reading is inconsistent.,"Camshaft position sensor; tone ring; wiring",120,450,check_soon
+P0345,Camshaft Position Sensor A Circuit Malfunction (Bank 2),The camshaft position sensor on bank 2 is not working properly.,"Camshaft position sensor; wiring; timing",120,450,check_soon
+P0380,Glow Plug/Heater Circuit A Malfunction,The glow plug circuit for a diesel engine is not working properly.,"Glow plugs; glow plug relay; wiring",150,600,check_soon
+P0385,Crankshaft Position Sensor B Circuit Malfunction,The secondary crankshaft position sensor signal is faulty.,"Crankshaft position sensor; wiring; tone ring",120,450,check_soon
+P0390,Camshaft Position Sensor B Circuit Malfunction (Bank 2),The exhaust camshaft position sensor on bank 2 has a fault.,"Camshaft sensor; wiring; connector",120,450,check_soon
+P0402,Exhaust Gas Recirculation Flow Excessive,The EGR system is flowing too much exhaust gas.,"EGR valve; EGR passages; vacuum hose",150,500,check_later
+P0403,Exhaust Gas Recirculation Circuit Malfunction,The EGR control circuit has a general fault.,"EGR valve; wiring; vacuum solenoid",150,500,check_later
+P0404,Exhaust Gas Recirculation Circuit Range/Performance,The EGR valve position is not matching the commanded position.,"EGR valve; wiring; position sensor",150,500,check_later
+P0405,Exhaust Gas Recirculation Sensor A Circuit Low,The EGR position sensor voltage is too low.,"EGR position sensor; wiring; connector",100,400,check_later
+P0406,Exhaust Gas Recirculation Sensor A Circuit High,The EGR position sensor voltage is too high.,"EGR position sensor; wiring; connector",100,400,check_later
+P0410,Secondary Air Injection System Malfunction,The secondary air injection system is not working properly.,"Air pump; check valves; vacuum solenoid; wiring",200,700,check_soon
+P0411,Secondary Air Injection System Incorrect Flow Detected,The secondary air injection system is not flowing the correct amount of air.,"Air pump; check valves; vacuum hoses",200,700,check_soon
+P0421,Warm Up Catalyst Efficiency Below Threshold (Bank 1),The catalytic converter is not efficient enough during warm-up.,"Catalytic converter; O2 sensors; exhaust",200,1500,check_soon
+P0422,Main Catalyst Efficiency Below Threshold (Bank 1),The main catalytic converter efficiency has dropped below acceptable levels.,"Catalytic converter; O2 sensors",300,1800,check_soon
+P0430,Catalyst System Efficiency Below Threshold (Bank 2),The catalytic converter on bank 2 is not cleaning emissions properly.,"Catalytic converter bank 2; O2 sensors",300,1800,check_soon
+P0441,Evaporative Emission System Incorrect Purge Flow,The EVAP purge flow is not correct.,"EVAP purge valve; vacuum hoses; gas cap",80,300,check_later
+P0443,Evaporative Emission System Purge Control Valve Circuit,The EVAP purge control valve circuit has a fault.,"EVAP purge valve; wiring; connector",80,300,check_later
+P0444,Evaporative Emission Control System Purge Control Valve Open,The EVAP purge control valve circuit is open.,"EVAP purge valve; wiring; connector",80,300,check_later
+P0449,Evaporative Emission System Vent Valve/Solenoid Circuit,The EVAP vent valve solenoid circuit has a fault.,"EVAP vent valve; wiring; connector",80,300,check_later
+P0451,Evaporative Emission System Pressure Sensor Range/Performance,The EVAP pressure sensor reading is out of range.,"EVAP pressure sensor; wiring; hoses",80,300,check_later
+P0452,Evaporative Emission System Pressure Sensor Low Input,The EVAP pressure sensor voltage is too low.,"EVAP pressure sensor; wiring; connector",80,300,check_later
+P0453,Evaporative Emission System Pressure Sensor High Input,The EVAP pressure sensor voltage is too high.,"EVAP pressure sensor; wiring; connector",80,300,check_later
+P0456,Evaporative Emission System Leak Detected (Very Small Leak),A very small leak has been detected in the EVAP system.,"Gas cap; EVAP hoses; purge valve",50,200,check_later
+P0457,Evaporative Emission System Leak Detected (Fuel Cap Loose/Off),The gas cap is loose or missing causing an EVAP leak.,"Gas cap",0,80,check_later
+P0460,Fuel Level Sensor A Circuit Malfunction,The fuel level sensor is not sending a correct signal.,"Fuel level sensor; wiring; instrument cluster",100,400,check_later
+P0461,Fuel Level Sensor A Circuit Range/Performance,The fuel level sensor reading is inconsistent.,"Fuel level sensor; wiring; float",100,400,check_later
+P0480,Cooling Fan 1 Control Circuit Malfunction,The primary cooling fan control circuit has a fault.,"Cooling fan relay; fan motor; wiring",120,450,check_soon
+P0481,Cooling Fan 2 Control Circuit Malfunction,The secondary cooling fan control circuit has a fault.,"Cooling fan relay; fan motor; wiring",120,450,check_soon
+P0501,Vehicle Speed Sensor A Range/Performance,The vehicle speed sensor reading is inconsistent.,"Vehicle speed sensor; wiring; tone ring",120,400,check_soon
+P0505,Idle Air Control System Malfunction,The idle air control system is not maintaining proper idle speed.,"IAC valve; throttle body; vacuum leaks",100,400,check_soon
+P0506,Idle Air Control System RPM Lower Than Expected,The engine idle speed is lower than expected.,"IAC valve; throttle body; vacuum leaks",100,400,check_soon
+P0507,Idle Air Control System RPM Higher Than Expected,The engine idle speed is higher than expected.,"IAC valve; throttle body; vacuum leaks",100,400,check_soon
+P0520,Engine Oil Pressure Sensor Switch Circuit Malfunction,The oil pressure sensor circuit has a fault.,"Oil pressure sensor; wiring; connector",80,300,check_soon
+P0521,Engine Oil Pressure Sensor Switch Circuit Range/Performance,The oil pressure sensor reading is inconsistent.,"Oil pressure sensor; wiring; engine oil",80,300,check_soon
+P0522,Engine Oil Pressure Sensor Switch Circuit Low Voltage,The oil pressure sensor voltage is too low.,"Oil pressure sensor; wiring; connector",80,300,check_soon
+P0523,Engine Oil Pressure Sensor Switch Circuit High Voltage,The oil pressure sensor voltage is too high.,"Oil pressure sensor; wiring; connector",80,300,check_soon
+P0530,A/C Refrigerant Pressure Sensor A Circuit Malfunction,The A/C refrigerant pressure sensor circuit has a fault.,"A/C pressure sensor; wiring; connector",100,400,check_later
+P0532,A/C Refrigerant Pressure Sensor A Circuit Low Input,The A/C pressure sensor voltage is too low.,"A/C pressure sensor; wiring; connector",100,400,check_later
+P0533,A/C Refrigerant Pressure Sensor A Circuit High Input,The A/C pressure sensor voltage is too high.,"A/C pressure sensor; wiring; connector",100,400,check_later
+P0551,Power Steering Pressure Sensor Circuit Range/Performance,The power steering pressure sensor reading is inconsistent.,"Power steering pressure sensor; wiring; connector",100,400,check_later
+P0560,System Voltage Malfunction,The system voltage is outside the expected range.,"Battery; alternator; wiring; fuses",100,600,check_soon
+P0562,System Voltage Low,The system voltage is below the expected minimum.,"Battery; alternator; wiring",100,600,check_soon
+P0563,System Voltage High,The system voltage is above the expected maximum.,"Alternator; voltage regulator; wiring",150,600,check_soon
+P0571,Cruise Control/Brake Switch A Circuit Malfunction,The brake switch signal for cruise control has a fault.,"Brake switch; wiring; connector",80,300,check_later
+P0601,Internal Control Module Memory Check Sum Error,The engine control module has detected an internal memory error.,"ECM/PCM; software update",300,1200,check_soon
+P0602,Control Module Programming Error,The engine control module has a programming fault.,"ECM/PCM; software update",300,1200,check_soon
+P0603,Internal Control Module Keep Alive Memory Error,The keep alive memory in the engine control module has failed.,"ECM/PCM; battery; wiring",300,1200,check_soon
+P0606,PCM Processor Fault,The engine control module processor has an internal fault.,"ECM/PCM; software update",300,1200,check_soon
+P0622,Generator Field F Terminal Circuit Malfunction,The alternator field terminal circuit has a fault.,"Alternator; wiring; connector",150,600,check_soon
+P0627,Fuel Pump A Control Circuit Open,The fuel pump control circuit is open.,"Fuel pump relay; wiring; fuel pump",150,600,check_soon
+P0628,Fuel Pump A Control Circuit Low,The fuel pump control circuit voltage is too low.,"Fuel pump relay; wiring; fuel pump",150,600,check_soon
+P0629,Fuel Pump A Control Circuit High,The fuel pump control circuit voltage is too high.,"Fuel pump relay; wiring; PCM",150,600,check_soon
+P0638,Throttle Actuator Control Command Performance (Bank 1),The throttle actuator is not responding to commands correctly.,"Electronic throttle body; wiring; PCM",200,800,check_soon
+P0641,Sensor Reference Voltage A Circuit Open,The 5V reference circuit for sensors has an open circuit.,"Wiring; connector; PCM",200,800,check_soon
+P0645,A/C Clutch Relay Control Circuit Malfunction,The A/C clutch relay circuit has a fault.,"A/C clutch relay; wiring; connector",100,400,check_later
+P0660,Intake Manifold Tuning Valve Control Circuit Open (Bank 1),The intake manifold tuning valve circuit is open.,"Intake tuning valve; wiring; connector",150,500,check_later
+P0661,Intake Manifold Tuning Valve Control Circuit Low (Bank 1),The intake manifold tuning valve circuit voltage is too low.,"Intake tuning valve; wiring; connector",150,500,check_later
+P0685,ECM/PCM Power Relay Control Circuit Open,The power relay circuit for the engine control module is open.,"ECM relay; wiring; connector",200,700,check_soon
+P0691,Cooling Fan 1 Control Circuit Low,The primary cooling fan circuit voltage is too low.,"Cooling fan relay; wiring; fan motor",120,450,check_soon
+P0741,Torque Converter Clutch Circuit Performance or Stuck Off,The torque converter clutch is stuck off or not performing correctly.,"Torque converter; transmission fluid; solenoid",300,1000,check_soon
+P0742,Torque Converter Clutch Circuit Stuck On,The torque converter clutch is stuck in the engaged position.,"Torque converter; transmission fluid; solenoid",300,1000,check_soon
+P0748,Pressure Control Solenoid A Electrical,The transmission pressure control solenoid A circuit has an electrical fault.,"Pressure solenoid; wiring; transmission fluid",200,800,check_soon
+P0750,Shift Solenoid A Malfunction,The transmission shift solenoid A is not working properly.,"Shift solenoid A; transmission fluid; wiring",200,800,check_soon
+P0755,Shift Solenoid B Malfunction,The transmission shift solenoid B is not working properly.,"Shift solenoid B; transmission fluid; wiring",200,800,check_soon
+P0760,Shift Solenoid C Malfunction,The transmission shift solenoid C is not working properly.,"Shift solenoid C; transmission fluid; wiring",200,800,check_soon
+P0771,Shift Solenoid E Performance or Stuck Off,Shift solenoid E is stuck off or not performing correctly.,"Shift solenoid E; transmission fluid; wiring",200,800,check_soon
+P0776,Pressure Control Solenoid B Performance or Stuck Off,The transmission pressure control solenoid B is stuck or not performing.,"Pressure solenoid B; transmission fluid; wiring",200,800,check_soon
+P0796,Pressure Control Solenoid C Performance or Stuck Off,The transmission pressure control solenoid C is stuck or not performing.,"Pressure solenoid C; transmission fluid; wiring",200,800,check_soon
+P0841,Transmission Fluid Pressure Sensor Switch A Circuit Range/Performance,The transmission fluid pressure sensor A reading is out of range.,"Fluid pressure sensor; wiring; transmission fluid",150,600,check_soon
+P0868,Transmission Fluid Pressure Low,The transmission fluid pressure is below the acceptable minimum.,"Transmission fluid; transmission pump; solenoids",250,1000,check_soon
+P0882,TCM Power Input Signal Low,The transmission control module is receiving low voltage.,"Wiring; fuses; battery; TCM",200,800,check_soon
+P0894,Transmission Component Slipping,A transmission component is slipping during normal operation.,"Transmission fluid; clutch packs; solenoids",300,1500,check_soon
+P1000,OBD System Readiness Test Not Complete,The OBD system has not completed its self-test cycles yet.,"Drive cycle required; no parts needed",0,0,check_later
+P2096,Post Catalyst Fuel Trim System Too Lean (Bank 1),The fuel trim after the catalytic converter is too lean on bank 1.,"Catalytic converter; O2 sensor; exhaust leaks",200,800,check_soon
+P2097,Post Catalyst Fuel Trim System Too Rich (Bank 1),The fuel trim after the catalytic converter is too rich on bank 1.,"Catalytic converter; O2 sensor; fuel injectors",200,800,check_soon
+P2109,Throttle Actuator Control Throttle Body Air Flow,The throttle body is not flowing the expected amount of air.,"Throttle body; throttle actuator; wiring",200,700,check_soon
+P2111,Throttle Actuator Control System Stuck Open,The throttle plate is stuck in the open position.,"Throttle body; throttle actuator; return spring",200,800,check_soon
+P2112,Throttle Actuator Control System Stuck Closed,The throttle plate is stuck in the closed position.,"Throttle body; throttle actuator; wiring",200,800,check_soon
+P2122,Throttle Pedal Position Sensor D Circuit Low Input,The throttle pedal position sensor D voltage is too low.,"Accelerator pedal sensor; wiring; connector",150,500,check_soon
+P2123,Throttle Pedal Position Sensor D Circuit High Input,The throttle pedal position sensor D voltage is too high.,"Accelerator pedal sensor; wiring; connector",150,500,check_soon
+P2127,Throttle Pedal Position Sensor E Circuit Low Input,The throttle pedal position sensor E voltage is too low.,"Accelerator pedal sensor; wiring; connector",150,500,check_soon
+P2128,Throttle Pedal Position Sensor E Circuit High Input,The throttle pedal position sensor E voltage is too high.,"Accelerator pedal sensor; wiring; connector",150,500,check_soon
+P2135,Throttle Pedal Position Sensor A/B Voltage Correlation,The throttle position sensors A and B readings do not agree.,"Throttle position sensor; throttle body; wiring",150,500,check_soon
+P2176,Throttle Actuator Control System Minimum Position Not Learned,The throttle minimum position has not been calibrated.,"Throttle body; PCM calibration",150,500,check_soon
+P2188,System Too Rich at Idle (Bank 1),The engine is running too rich at idle on bank 1.,"Fuel injectors; fuel pressure; MAF sensor",150,600,check_soon
+P2195,O2 Sensor Signal Biased Lean (Bank 1 Sensor 1),The upstream O2 sensor on bank 1 is biased towards lean.,"O2 sensor; exhaust leaks; fuel system",90,350,check_soon
+P2196,O2 Sensor Signal Biased Rich (Bank 1 Sensor 1),The upstream O2 sensor on bank 1 is biased towards rich.,"O2 sensor; fuel injectors; fuel pressure",90,350,check_soon
+P2270,O2 Sensor Signal Stuck Lean (Bank 1 Sensor 2),The downstream O2 sensor on bank 1 is stuck reading lean.,"Downstream O2 sensor; catalytic converter; exhaust",90,350,check_soon
+P2271,O2 Sensor Signal Stuck Rich (Bank 1 Sensor 2),The downstream O2 sensor on bank 1 is stuck reading rich.,"Downstream O2 sensor; catalytic converter; fuel",90,350,check_soon
+P2293,Fuel Pressure Regulator 2 Performance,The secondary fuel pressure regulator is not performing correctly.,"Fuel pressure regulator; fuel pump; fuel filter",200,700,check_soon
+P2400,EVAP Leak Detection Pump Control Circuit Open,The EVAP leak detection pump circuit is open.,"EVAP leak detection pump; wiring; connector",100,400,check_later
+P2401,EVAP Leak Detection Pump Control Circuit Low,The EVAP leak detection pump circuit voltage is too low.,"EVAP leak detection pump; wiring; connector",100,400,check_later
+P2402,EVAP Leak Detection Pump Control Circuit High,The EVAP leak detection pump circuit voltage is too high.,"EVAP leak detection pump; wiring; connector",100,400,check_later
+P2563,Turbocharger Boost Control Position Sensor Circuit Range/Performance,The turbo boost control position sensor reading is out of range.,"Boost control solenoid; wiring; turbocharger",200,800,check_soon
+P2564,Turbocharger Boost Control Position Sensor Circuit Low,The turbo boost control position sensor voltage is too low.,"Boost control sensor; wiring; connector",200,800,check_soon
+P2610,ECM/PCM Internal Engine Off Timer Performance,The engine off timer in the control module is not performing correctly.,"ECM/PCM; battery; wiring",200,800,check_soon
